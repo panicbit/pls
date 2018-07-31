@@ -1,0 +1,12 @@
+[package]
+name = "pls"
+version = "0.1.0"
+authors = ["panicbit <panicbit.dev@gmail.com>"]
+
+[dependencies]
+ion-shell = { git = "https://github.com/redox-os/ion" }
+toml = "0.4.6"
+serde_derive = "1.0.70"
+serde = { version = "1.0.70", features = ["rc"] }
+failure = "0.1.1"
+structopt = "0.2.10"
